@@ -1,0 +1,176 @@
+@font-face{
+    font-family: Poppins;
+    src: url(./Fontes/Poppins-Black.ttf);
+}
+@font-face{
+    font-family: Sora;
+    src: url(./Fontes//Sora-VariableFont_wght.ttf)
+}
+
+/* Padrão */
+*{margin: 0;padding: 0;}
+a,li{list-style-type: none; text-decoration: none;}
+
+
+/* --------------------------------------------- */
+/* Container -> Navbar principal */
+section.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F7C7B9;
+    font-family: Sora;
+    padding-top: 10px;
+}
+
+/* Imagem do papai noel + Texto de feliz natal */
+div.Natal{
+    display: flex;
+    align-items: center;
+}
+div.Natal h4{
+    margin-left:10px;
+}
+
+/* Navbar principal */
+section.container nav ul{
+    display: flex;
+}
+section.container nav ul li{
+    margin-left:20px;
+}
+section.Painel-Principal{
+    background: #F7C7B9;
+}
+div.central{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Sora;
+    padding-bottom: 50px;
+    width: 68%;
+    margin: 0 auto;
+}
+
+section.Painel-Principal article.Texto-Esquerdo{
+    width: 488px;
+}
+
+section.Painel-Principal article.Texto-Esquerdo h1{
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 10px;
+
+}
+.botao-Vermelho{
+    display: flex;
+    background: #DA2535;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    width: 200px;
+    height: 24px;
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+.botao-Vermelho:hover{
+    background: #e94653;
+    cursor: pointer;
+}
+.botao-Vermelho-segundo{
+    display: flex;
+    background: #DA2535;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    width:200px;
+    height: 24px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.botao-Vermelho-segundo:hover{
+    background: #e94653;
+    cursor: pointer;
+}
+.botao-Vermelho a{
+    margin-right: 5px;
+}
+.botao-Vermelho-segundo a{
+    margin-right: 5px;
+}
+
+/* ---------------------------------------------- */
+section.Segundo-Painel{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+article.acessorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article.acessorios h1{
+    font-family: Poppins;
+    font-size: 30px;
+    line-height: 72px;
+}
+article.acessorios p{
+    font-family: Sora;
+    width: 477px;
+    height: 48px;
+    text-align: center;
+}
+/* ------------------ */
+article.imagens-presentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.imagens-presentes div{
+    width: 200px;
+    height: 308px;
+    text-align: center;
+    padding: 30px;
+}
+article.imagens-presentes div:hover{
+
+    box-shadow: 1px 1px 5px;
+}
+
+article.imagens-presentes img:hover{
+    transform: rotateY(180deg) scale(1.2);
+    cursor: pointer;
+    transition: 2s all;
+}
+article.imagens-presentes div h3{
+    font-family: Poppins;
+}
+article.imagens-presentes div p{
+    font-family: Sora;
+}
+/* ------------------ */
+
+section.container-Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Sora;
+    padding-top: 10px;
+}
+div.Natal-Footer{
+    display: flex;
+    align-items: center;
+}
+div.Natal-Footer h4{
+    margin-left:10px;
+}
+nav.Natal-Nav-Footer ul{
+    display: flex;
+}
+nav.Natal-Nav-Footer ul li{
+    margin-left:35px;
+}
